@@ -1,0 +1,247 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: linear-gradient(to right, #daeeff 0%, rgb(255, 218, 179)	 100%);
+}
+
+.home-img{
+    width: 85%;
+    height: 85%;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    position: absolute;
+    transform: translate(9%, 9%);
+    -webkit-transform: translate(9%, 9%);
+    -moz-transform: translate(9%, 9%);
+    -ms-transform: translate(9%, 9%);
+    -o-transform: translate(9%, 9%);
+}
+
+.start{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    background-color: #4DD8B9;
+    color: #2A2A5E;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: 2px solid #4DD8B9;
+    font-family: "BBH Sans Bogle", sans-serif;
+    width: 120px;
+    transform: translate(50px,330px) ;
+    -webkit-transform: translate(50px,330px) ;
+    -moz-transform: translate(50px,330px) ;
+    -ms-transform: translate(50px,330px) ;
+    -o-transform: translate(50px,330px) ;
+}
+.start:hover{
+    background-color: white;
+    color: #5F4B8B;
+    border: 2px solid #5F4B8B;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+
+
+.home-p{
+    font-family: "Playwrite US Modern", cursive;
+    font-size: 25px;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translate(90px,230px) ;
+    -webkit-transform: translate(90px,230px) ;
+    -moz-transform: translate(90px,230px) ;
+    -ms-transform: translate(90px,230px) ;
+    -o-transform: translate(90px,230px) ;
+    width: 460px;
+}
+
+.home-ul-font{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    width: 320px;
+    transform: translate(170px,140px);
+    -webkit-transform: translate(170px,140px);
+    -moz-transform: translate(170px,140px);
+    -ms-transform: translate(170px,140px);
+    -o-transform: translate(170px,140px);
+}
+
+.star{
+    font-size: 25px;
+    color: snow;
+    animation: star infinite ease-in-out 3s;
+    -webkit-animation: star infinite ease-in-out 3s;
+}
+@keyframes star{
+    0%{
+        color: snow;
+        scale: 1;
+    }
+    25%{
+        color: gold;
+        scale: 1.1;
+    }
+    50%{
+        color: snow;
+        scale: 0.9;
+    }
+    75%{
+        color: gold;
+        scale: 1.1;
+    }
+    100%{
+        color: snow;
+        scale: 1;
+    }
+}
+
+.meteor {
+    font-size: 35px;
+    background: linear-gradient(to left, red, gold, red);
+    background-size: 200% auto;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: inline-block;
+    animation: meteorMove 2s linear infinite;
+}
+@keyframes meteorMove {
+    0% {
+        background-position: 200% 0;
+    }
+    100% {
+        background-position: -200% 0;
+    }
+}
+
+
+.earth{
+    font-size: 35px;
+    background: linear-gradient(to right, #00d2ff, #3a47d5);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: earth infinite ease-in-out 0.8s;
+    -webkit-animation: earth infinite ease-in-out 0.8s;
+}
+@keyframes earth{
+    0%{
+        transform: rotate(0deg);
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+}
+    10%{
+        transform: rotate(36deg);
+        -webkit-transform: rotate(36deg);
+        -moz-transform: rotate(36deg);
+        -ms-transform: rotate(36deg);
+        -o-transform: rotate(36deg);
+}
+    20%{
+        transform: rotate(72deg);
+        -webkit-transform: rotate(72deg);
+        -moz-transform: rotate(72deg);
+        -ms-transform: rotate(72deg);
+        -o-transform: rotate(72deg);
+}
+    30%{
+        transform: rotate(108deg);
+        -webkit-transform: rotate(108deg);
+        -moz-transform: rotate(108deg);
+        -ms-transform: rotate(108deg);
+        -o-transform: rotate(108deg);
+}
+    40%{
+        transform: rotate(144deg);
+        -webkit-transform: rotate(144deg);
+        -moz-transform: rotate(144deg);
+        -ms-transform: rotate(144deg);
+        -o-transform: rotate(144deg);
+}
+    50%{
+        transform: rotate(180deg);
+        -webkit-transform: rotate(180deg);
+        -moz-transform: rotate(180deg);
+        -ms-transform: rotate(180deg);
+        -o-transform: rotate(180deg);
+}
+    60%{
+        transform: rotate(216deg);
+        -webkit-transform: rotate(216deg);
+        -moz-transform: rotate(216deg);
+        -ms-transform: rotate(216deg);
+        -o-transform: rotate(216deg);
+}
+    70%{
+        transform: rotate(252deg);
+        -webkit-transform: rotate(252deg);
+        -moz-transform: rotate(252deg);
+        -ms-transform: rotate(252deg);
+        -o-transform: rotate(252deg);
+}
+    80%{
+        transform: rotate(288deg);
+        -webkit-transform: rotate(288deg);
+        -moz-transform: rotate(288deg);
+        -ms-transform: rotate(288deg);
+        -o-transform: rotate(288deg);
+}
+    90%{
+        transform: rotate(324deg);
+        -webkit-transform: rotate(324deg);
+        -moz-transform: rotate(324deg);
+        -ms-transform: rotate(324deg);
+        -o-transform: rotate(324deg);
+}
+    100%{
+        transform: rotate(360deg);
+        -webkit-transform: rotate(360deg);
+        -moz-transform: rotate(360deg);
+        -ms-transform: rotate(360deg);
+        -o-transform: rotate(360deg);
+}
+}
+
+.sun {
+    font-size: 35px;
+    background: linear-gradient(to right, #f7971e, #ffd200);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: sun 0.8s ease-in-out infinite alternate;
+    display: inline-block;
+    text-shadow: 0 0 15px #ffd200, 0 0 30px #ffae00, 0 0 45px #ffcc00;
+}
+
+@keyframes sun {
+    0% {
+        text-shadow: 0 0 10px #ffd200, 0 0 20px #ffae00, 0 0 30px #ffcc00;
+    }
+    100% {
+        text-shadow: 0 0 20px #ffd200, 0 0 40px #ffae00, 0 0 60px #ffcc00;
+    }
+}
+
+
+.home-div{
+    padding: 25px;
+    width: 791px;
+    height: 627px;
+    transform: translate(118px,56px);
+    -webkit-transform: translate(118px,56px);
+    -moz-transform: translate(118px,56px);
+    -ms-transform: translate(118px,56px);
+    -o-transform: translate(118px,56px);
+}

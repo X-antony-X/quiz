@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.ul-line{
+    list-style-image: url(./li-img.png);
+    padding-left: 50px;
+    margin-top: 85px;
+}
+
+.line{
+    font-size: 20px;
+    color: white;
+    margin-top: 25px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.info-img{
+    width: 460px;
+    height: 220px;
+    border-bottom-right-radius: 15px;
+    border-top-right-radius: 15px;
+    transform: translate(-26px,45px);
+    -webkit-transform: translate(-26px,45px);
+    -moz-transform: translate(-26px,45px);
+    -ms-transform: translate(-26px,45px);
+    -o-transform: translate(-26px,45px);
+}
