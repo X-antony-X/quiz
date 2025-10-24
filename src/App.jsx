@@ -12,7 +12,7 @@ function App() {
 
   return (
     <>
-      <BrowserRouter basename={import.meta.env.BASE_URL}>
+      <BrowserRouter basename="/quiz">
         <Routes>
           <Route path="/" element={<Home/>}/>
           <Route path="/Info" element={<Info/>}/>
